@@ -1,0 +1,13 @@
+runtime-browser/
+.venv/
+state/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.DS_Store
+*.log
+*.mp4
+*.mov
+*.wav
+*.crdownload
