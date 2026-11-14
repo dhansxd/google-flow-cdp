@@ -8,6 +8,7 @@ The agent keeps a browser session open, reads the current DOM, accessibility tre
 
 - macOS with Google Chrome installed at `/Applications/Google Chrome.app`.
 - Chrome 144 or newer with **Allow remote debugging for this browser instance** enabled at `chrome://inspect/#remote-debugging`.
+- Chrome's native debugging dialog in English or Indonesian, whose labels are recognized by the bundled consent code.
 - Python 3.12 and an original Chrome profile signed into Google Flow.
 - macOS Accessibility permission for the Python.app host running the module. Chrome's native debugging permission is handled through Accessibility.
 - Node.js for the offline JavaScript fixtures and FFmpeg for checking generated media.

@@ -8,6 +8,7 @@ newer, enable **Allow remote debugging for this browser instance** at
 `chrome://inspect/#remote-debugging`. Grant macOS Accessibility permission to the
 Python.app host executing the module. Chrome's native consent is handled through
 Accessibility with connection and window correlation.
+The automatic consent handler recognizes English and Indonesian Chrome dialog labels.
 
 From this checkout, create `runtime-browser` and install `requirements-browser.txt`
 as shown in the README. Browser Harness 0.1.13 has its own pinned transport dependency,

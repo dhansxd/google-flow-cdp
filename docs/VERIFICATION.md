@@ -21,7 +21,22 @@ The inspected Agent composer exposed model, ratio, count and approval controls. 
 
 The standalone controller files match the validated source byte for byte. The package includes 19 standalone regressions and 99 reused Chrome lifecycle regressions. All 118 offline tests pass in a fresh Python 3.12 environment, and `pip check` reports consistent dependencies.
 
-Clean-clone installation and native generation results will be recorded after the publication-package acceptance run.
+An independent clone of this repository at `89c6404` installed its dependencies in a new environment, passed `pip check` and all 118 offline tests, and completed the four-agent native window test.
+
+Hermes then used that clone's persistent terminal console to produce and download two original videos through the current Flow UI.
+
+| Mode | Submissions | Measured dimensions | Container duration | Audio | Full decode |
+| --- | --- | --- | --- | --- | --- |
+| Classic | 1 | 720 × 1280 | 4.032 seconds | AAC | Passed |
+| Agent | 1 | 720 × 1280 | 4.032 seconds | AAC | Passed |
+
+Both files passed byte and SHA-256 comparison against their original native downloads. Independent FFprobe and FFmpeg checks also passed. A sampled frame from each file showed the requested technical subject.
+
+Forty-one observations retained the same document marker, time origin, session, owned page window and daemon across both modes. Console and child imports resolved to the clone's environment. Native observations recorded zero profile picker windows. Session cleanup returned `True`, removed its owned targets and runtime, and stopped its daemon. The console and Hermes CLI exited with status zero. The Dock contained one Google Chrome icon.
+
+The four-agent fixture exercise verified survival of independent peer and manual-fixture pages. The subsequent generation run had zero independent peer pages available for that separate check.
+
+A settings-selector error during setup was resolved through a fresh DOM read before the first submission. The composer settings were then read back successfully. The native Agent composer exposed model, ratio, count and automatic approval. Its requested duration and resolution were checked against the resulting file.
 
 ## Remaining field coverage
 
